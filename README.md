@@ -1,67 +1,71 @@
-# Tic Tac Toe
+# Car Racing Game
 
 ## Overview
 
-Welcome to the Tic Tac Toe game repository! This project features a classic Tic Tac Toe game built using Python's Tkinter library. The game allows two players to take turns playing on a 3x3 grid, aiming to align three of their marks (X or O) in a row, column, or diagonal to win. The game includes a feature for setting player names, starting a new game, and resetting the game.
-
-## Description
-
-The Tic Tac Toe game provides a simple yet engaging experience where two players can compete against each other. Players can enter their names, start the game, and see their names displayed in the game. The game will announce the winner or a draw when the game is over and allows players to reset the game to play again.
+Welcome to the Car Racing Game repository! This project features an exciting car racing game built using Python's Pygame library. The game involves controlling a car to avoid obstacles and compete for the highest score. The game includes a simple start screen, a high-score tracking feature, and responsive controls.
 
 ## Features
 
-- **Player Names:** Enter names for Player 1 (X) and Player 2 (O).
-- **Gameplay:** Take turns clicking on a 3x3 grid to place X or O.
-- **Game Over Notification:** Display a message when a player wins or the game ends in a draw.
-- **Reset Game:** Restart the game with a new 3x3 grid after the game ends.
-- **Centered Window:** The window is centered on the screen for better visibility.
-
-## How to Play
-
-1. **Run the Script:**
-   - Save the Python code in a file named `tic_tac_toe.py`.
-   - Open your terminal or command prompt.
-   - Navigate to the directory where `tic_tac_toe.py` is saved.
-   - Run the script with the following command:
-     ```sh
-     python tic_tac_toe.py
-     ```
-
-2. **Game Instructions:**
-   - Enter names for Player 1 (X) and Player 2 (O) in the provided text fields.
-   - Click the "Start Game" button to begin playing.
-   - Take turns clicking on the grid to place X or O.
-   - The game will automatically detect a win or draw and display a message.
-   - Press the "Reset" button to start a new game.
+- **Player Controls:** Use the arrow keys to navigate the car.
+- **Obstacles:** Randomly generated obstacles to avoid.
+- **Scoring:** Earn points based on the distance traveled.
+- **Graphics:** Simple and clean graphics with car images.
+- **Game Over Screen:** Displays the final score and a restart option.
 
 ## Installation
 
 To run the game on your local machine:
 
-1. **Clone the Repository:**
+1. **Clone the repository:**
     ```sh
-    git clone https://github.com/harshithabannu/tic-tac-toe.git
+    git clone https://github.com/yourusername/car-racing-game.git
     ```
-2. **Navigate to the Project Directory:**
-    ```sh
-    cd tic-tac-toe
-    ```
-3. **Ensure you have Python installed.** Tkinter comes bundled with Python, so no additional installation is required.
 
-4. **Run the Game Script:**
+2. **Navigate to the project directory:**
     ```sh
-    python tic_tac_toe.py
+    cd car-racing-game
     ```
+
+3. **Install the required dependencies:**
+    ```sh
+    pip install pygame
+    ```
+
+4. **Run the game:**
+    ```sh
+    python car_racing_game.py
+    ```
+
+## Game Assets
+
+Ensure the following images are in the same directory as `car_racing_game.py`:
+
+1. **Player Car Image:** `player_car.png`
+2. **Obstacle Car Image:** `obstacle_car.png`
+
+## How to Play
+
+- **Start the Game:** Run `python car_racing_game.py` and press any key to start.
+- **Control the Car:** Use the left and right arrow keys to move the car left and right.
+- **Avoid Obstacles:** Dodge the incoming obstacle cars to keep playing.
+- **Score Points:** Your score increases as you avoid obstacles and keep driving.
 
 ## Contributing
 
-Contributions are welcome! If you want to enhance the game or add new features, please:
+Contributions are welcome! To contribute:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Open a pull request.
 
-1. **Fork the repository.**
-2. **Create a new branch:**
-   ```sh
-   git checkout -b feature-branch
-   
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+## Acknowledgments
+
+Thanks to Python documentation and the programming community for resources and support.
+
